@@ -8,6 +8,7 @@ let links = document.querySelectorAll('ul li a');
 for (let link of links) {
   if (link.textContent === 'Bananas') {
     link.textContent = 'Vegetables';
+    link.href = '#vegetables'
   }
 }
 
