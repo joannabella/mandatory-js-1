@@ -1,3 +1,71 @@
+html {
+  background: url(https://foodiefactor.com/wp-content/uploads/2017/07/autumn-fruits.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Fugaz One', cursive;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
 h1 {
   color: red;
+  text-shadow: 2px 2px 2px black;
+  display: inline-block;
+  margin-top: 55px;
+}
+
+header {
+  text-align: center;
+  height: 300px;
+}
+
+header ul {
+  text-align: left;
+  display: table;
+  margin-top: 40px;
+  box-shadow: 3px 9px 20px 0px #00000066;
+  height: 75vh;
+  width: 170px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #ffffffad;
+  text-shadow: 2px 2px 2px black;
+  font-size: 20px;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 20px;
+}
+
+#main {
+  color: #ffffffad;
+  text-shadow: 2px 2px 2px black;
+}
+
+#about {
+  text-align: center;
+}
+
+#about h2, #contact h2 {
+  text-decoration: overline;
+}
+
+#contact {
+  text-align: center;
+  margin-top: 50px;
+}
+
+table {
+  margin: 0 auto;
+  text-align: left;
 }
